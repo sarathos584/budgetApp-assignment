@@ -1,0 +1,83 @@
+<h1 id="logo">Budget</h1>
+<section class="container-fluid px-0">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="../../assets/man-with-smartphone-resting-sofa.jpg" />
+    </div>
+    <div class="col-md-6">
+      <div class="select d-flex justify-content-end align-items-baseline">
+        <p>Having trouble? <a href="#">Get Help</a></p>
+        <div class="dropdown">
+          <button
+            class="btn dropdown-toggle"
+            type="button"
+            id="countryDropdown"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <span class="flag-icon flag-icon-us"></span> Eng
+          </button>
+          <div class="dropdown-menu" aria-labelledby="countryDropdown">
+            <a class="dropdown-item" href="#">
+              <span class="flag-icon flag-icon-us"></span> Eng
+            </a>
+            <a class="dropdown-item" href="#">
+              <span class="flag-icon flag-icon-gb"></span> Eng
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="mb-3 form">
+          <h1>Login to Budget</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+          <form [formGroup]="logform" (ngSubmit)="btnClick()">
+            <!-- Email input -->
+            <div class="form-outline mail-in">
+              <label for="email" id="mailLabel">Email</label>
+              <input type="email" id="email" class="form-control" formControlName="email" />
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline pass-in">
+              <input type="password" id="password" class="form-control" formControlName="pswd" />
+              <label for="password" id="passLabel">Password</label>
+              <button id="showBtn" type="button">show</button>
+            </div>
+
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row">
+              <div class="col d-flex justify-content-between mb-3" style="gap: 6em;">
+                <!-- Checkbox -->
+                <div class="form-check d-flex align-items-center" id="memory-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="remember"
+                    checked
+                  />
+                  <label class="form-check-label" for="remember">
+                    Keep me logged in
+                  </label>
+                </div>
+                <div class="col" id="forgot-pass">
+                  <!-- Simple link -->
+                  <a href="#!" class="text-dark">Forgot password?</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">
+              Login
+            </button>
+            <a href="#">Create New Account?</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

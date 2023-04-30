@@ -1,0 +1,284 @@
+#logo {
+  position: absolute;
+  max-width: 114px;
+  height: auto;
+  left: 24px;
+  top: 40px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 37px;
+  z-index: 1;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+.container-fluid .row .sidebar {
+  height: 100vh;
+  border-right: 1px solid #eaeaea;
+  padding-top: 150px;
+}
+.container-fluid .row .main-content {
+  height: 100vh;
+  padding-top: 50px;
+}
+#hov-btn {
+  height: 30px;
+  width: 5px;
+  background: #005eff;
+  position: relative;
+  left: -16.5px;
+  border-radius: 4px;
+}
+#hov-btn ~ a {
+  text-decoration: none;
+  width: 72px;
+  height: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  color: #202020;
+  white-space: nowrap;
+  position: relative;
+  top: -4px;
+}
+#dashb {
+  width: 123px;
+  height: 26px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: #202020;
+}
+#dashb ~ p {
+  width: 335px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #707070;
+}
+.container-fluid .row .main-content .pending {
+  border: 1px solid #eaeaea;
+  width: 450px;
+  height: 40px;
+  border-radius: 20px;
+  text-decoration: none;
+  line-height: 15px;
+  color: #202020;
+  white-space: nowrap;
+  gap: 5px;
+}
+.container-fluid .row .main-content .pending p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+}
+.container-fluid .row .main-content .pending p span,
+.container-fluid .row .main-content .pending p ~ a {
+  font-weight: 600;
+  color: #202020;
+}
+#info {
+  position: relative;
+  top: 5px;
+}
+.container-fluid .row .main-content .cards .card {
+  width: 217px;
+  height: 141px;
+  border-radius: 10px;
+  white-space: nowrap;
+  margin: 0.5em;
+}
+.container-fluid .row .main-content .cards .card h1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.container-fluid .row .main-content .cards .card .number {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 37px;
+  color: #ffffff;
+}
+.container-fluid .row .main-content .cards .card .date {
+  width: 104px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.container-fluid .row .main-content .cards .card .date span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 7px;
+  margin-left: 1px;
+  margin-right: 1px;
+  width: 15px;
+}
+.container-fluid .row .main-content .cards .card h1,
+.container-fluid .row .main-content .cards .card p {
+  position: relative;
+  left: 26px;
+  top: 20px;
+}
+#recent {
+  width: 202px;
+  height: 22px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #202020;
+}
+.table-section .table thead tr th {
+  width: 87px;
+  height: 13px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  color: #707070;
+  white-space: nowrap;
+}
+.table-section .table tbody tr th {
+  width: 102px;
+  height: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  color: #202020;
+}
+.table-section .table tbody tr th span,
+.table-section .table tbody tr :nth-child(3) span {
+  width: 76px;
+  height: 13px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #707070;
+}
+.table-section .table tbody tr :nth-child(2),
+.table-section .table tbody tr :nth-child(3),
+.table-section .table tbody tr :nth-child(5) {
+  width: 106px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #202020;
+}
+.table-section .table tbody tr :nth-child(4),
+.table-section .table tbody tr :nth-child(6) {
+  width: 32px;
+  height: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  color: #202020;
+}
+.view-link {
+  position: relative;
+  right: 55px;
+  color: #202020;
+}
+.view-link {
+  display: none;
+}
+.view-link a {
+  width: 31px;
+  height: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  text-decoration-line: underline;
+  color: #202020;
+}
+.table-section .table tbody tr:hover {
+  background: #edf6fe;
+}
+.table-section .table tbody tr:hover .view-link {
+  display: inline-block;
+}
+#view-all {
+  position: relative;
+  left: 260px;
+  box-sizing: border-box;
+  width: 98px;
+  height: 39px;
+  border: 1px solid #202020;
+  border-radius: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.nav-item button {
+  width: 50px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #707070;
+  background: none;
+  outline: none;
+  border: none;
+  white-space: nowrap;
+  position: relative;
+  top: 350px;
+}
+.nav-item button span{
+  position: relative;
+  top: 6.5px;
+}
+.nav-item .log-detials {
+  position: relative;
+  top: 340px;
+  width: 224px;
+  height: 62px;
+  background: #f7f9ff;
+  border-radius: 31px;
+}
+.log-detials img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  right: -4px;
+}
+.log-detials div #log-name {
+  width: 63px;
+  height: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  color: #202020;
+  position: relative;
+  top: 10px;
+  right: -12px;
+}
+.log-detials div #log-num{
+width: 91px;
+height: 13px;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+color: #707070;
+position: relative;
+top: 5px;
+right: -9px;
+}
+@media only screen and (max-width: 767px) {
+  .container-fluid .row .sidebar {
+    height: fit-content;
+    border: none;
+  }
+  .nav-item .log-detials{
+    top: -150px;
+    right: -280px;
+  }
+}
